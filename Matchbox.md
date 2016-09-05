@@ -13,6 +13,7 @@ The compiler converts lambda expressions into delegates of the type Func<Tin,Tre
 - `Ioc.Register<MyViewModel>();`
 - `Ioc.Register<IMyClass,MyClass>();`
 - `Ioc.Register<IMyClass>(()=> new MyClass());`
+
 ###Registering Singletons###
 - `Ioc.RegisterSingleton<MyViewModel>(()=> new MyViewModel());`
 - `Ioc.RegisterSingleton(()=> new MyViewModel());`
